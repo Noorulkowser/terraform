@@ -17,6 +17,7 @@ resource "aws_security_group" "ssh_sg" {
   }
 }
 
+
 resource "aws_instance" "my_instance" {
   ami           = "ami-0eb9d6fc9fab44d24"        
   instance_type = "t2.micro"       
